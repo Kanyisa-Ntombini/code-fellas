@@ -22,4 +22,6 @@ function clickedSubmitBtn () {
     let printList = firstUser.getStoredList();
     console.log(printList);
 }
+
+
 submitButton.addEventListener('click', clickedSubmitBtn);

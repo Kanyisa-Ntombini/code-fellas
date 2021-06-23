@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Register form</title>
   </head>
   <body>
-    <form action="">
-      <h1>Cool Jobs Search</h1>
+    <form action="" class="fields">
+      <h1>COOL JOBS SEARCH</h1>
 
-      <label for="">First Name :</label>
+      <label for="">First Name </label>
       <input type="text" name="" id="" class="firstName" />
       <br /><br />
 
@@ -46,15 +47,22 @@
       <label for="">How long have you been unemployed?</label>
       <input type="text" name="" id="" class="unemploymentTime" />
       <br /><br />
-      <label for="myfile">Upload CV</label>
+      <!-- <label for="myfile">Upload CV</label>
       <input
         type="file"
         id="myfile"
         name="myfile"
         class="cvUpload"
-      /><br /><br />
+      /><br /><br /> -->
       <br /><br />
-      <button type="button" name="button" class="submitButton">Submit</button>
+      <button
+        type="button"
+        name="button"
+        class="submitButton"
+        onclick="location.href='./main.html'"
+      >
+        Submit
+      </button>
       <br /><br />
 
       <script src="./js/factory-function.js"></script>
