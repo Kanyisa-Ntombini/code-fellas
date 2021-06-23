@@ -1,13 +1,19 @@
-function StoreNames () {
+function StoreNames() {
     let storeAllUsers = [];
     let userObject;
 
-    function createObject(firstName, lastName, dateOfBirth, cellNumber, employedChoose) {
+    function createObject(firstName, lastName, dateOfBirth, cellNumber, physicalAddress, emailAddress, postalAddress, employedRadio, unemploymentTime, cvUpload) {
         userObject = {
             name: firstName,
             surname: lastName,
             DateOfBirth: dateOfBirth,
-            CellNumber: cellNumber
+            CellNumber: cellNumber,
+            EmailAdress: emailAddress,
+            PhysicalAddress: physicalAddress,
+            PostalAddress: postalAddress,
+            EmployedRadio: employedRadio,
+            UnemploymentTime: unemploymentTime,
+            CvAttachement: cvUpload
         }
     }
 
