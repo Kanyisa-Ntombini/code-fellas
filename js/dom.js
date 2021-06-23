@@ -13,8 +13,9 @@ let cvUpload = document.querySelector('.cvUpload');
 const firstUser = StoreNames();
 
 function clickedSubmitBtn () {
-    let fname = firstName.value;
-    firstUser.createObject(fName);
-    
+    firstUser.createObject(firstName.value, lastName.value, dateOfBirth.value, cellNumber.value);
+    firstUser.createList();
+    let printList = firstUser.getStoredList();
+    console.log(printList);
 }
 submitButton.addEventListener('click', clickedSubmitBtn);

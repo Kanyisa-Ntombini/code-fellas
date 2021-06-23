@@ -1,10 +1,13 @@
 function StoreNames () {
     let storeAllUsers = [];
+    let userObject;
 
-    function createObject(firstName, y) {
-        let userObject = {
+    function createObject(firstName, lastName, dateOfBirth, cellNumber, employedChoose) {
+        userObject = {
             name: firstName,
-            surname: y
+            surname: lastName,
+            DateOfBirth: dateOfBirth,
+            CellNumber: cellNumber
         }
     }
 
@@ -12,8 +15,13 @@ function StoreNames () {
         storeAllUsers.push(userObject);
     }
 
+    function getStoredList() {
+        return storeAllUsers;
+    }
+
     return {
         createObject,
-        createList
+        createList,
+        getStoredList
     }
 }
