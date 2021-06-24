@@ -11,7 +11,10 @@ let postalAddress = document.querySelector(".postalAddress");
 let unemploymentTime = document.querySelector('.unemploymentTime');
 let cvUpload = document.querySelector('.cvUpload');
 
-const firstUser = StoreNames();
+//Getting stored registered people
+var storingRegisteredPeople = getRegisteredList();
+
+const firstUser = StoreNames(storingRegisteredPeople);
 
 function clickedSubmitBtn () {
     let checkedRadioBtn = document.querySelector("input[name='radioBbtn']:checked");
@@ -21,6 +24,10 @@ function clickedSubmitBtn () {
     firstUser.createList();
     let printList = firstUser.getStoredList();
     console.log(printList);
+
+    //Storing registered people list
+    storeRegisteredPeople(firstUser.getStoredList());
+
 }
 
 

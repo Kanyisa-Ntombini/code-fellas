@@ -1,8 +1,8 @@
-function StoreNames() {
-    let storeAllUsers = [];
+function StoreNames(storingFileds = []) {
+    let storeAllUsers = storingFileds !== null ? storingFileds : [];
     let userObject;
 
-    function createObject(firstName, lastName, dateOfBirth, cellNumber, physicalAddress, emailAddress, postalAddress, employedRadio, unemploymentTime, cvUpload) {
+    function createObject(firstName, lastName, dateOfBirth, cellNumber, physicalAddress, emailAddress, postalAddress, employedRadio, unemploymentTime) {
         userObject = {
             name: firstName,
             surname: lastName,
@@ -12,8 +12,8 @@ function StoreNames() {
             PhysicalAddress: physicalAddress,
             PostalAddress: postalAddress,
             EmployedRadio: employedRadio,
-            UnemploymentTime: unemploymentTime,
-            CvAttachement: cvUpload
+            UnemploymentTime: unemploymentTime
+            // CvAttachement: cvUpload
         }
     }
 
