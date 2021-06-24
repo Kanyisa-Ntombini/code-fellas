@@ -22,9 +22,9 @@ function statistics(){
           labels: ['Unemployed & Searching', 'Employed & Searching'],
           datasets: [
             {
-              label: 'Latest Statistics',
+              label: 'Number of Unemployed people',
               data: [unemployedUsers?.length, employedUsers?.length],
-              backgroundColor: ['yellow', 'pink'],
+              backgroundColor: ['lightblue', 'pink'],
             },
           ],
         },
