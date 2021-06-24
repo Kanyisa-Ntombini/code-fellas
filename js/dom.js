@@ -27,8 +27,17 @@ function clickedSubmitBtn () {
 
     //Storing registered people list
     storeRegisteredPeople(firstUser.getStoredList());
-
 }
 
+// const storeList = firstUser.getStoredList();
+
+// storeList.map(function(storage){
+//     storage = firstUser.getStoredList();
+//     console.log(storage);
+//     let storingList = "<tr><td>${storage.firstName}</td><td>${storage.lastName}</td></tr>"
+//     console.log(storingList);
+    
+//     return storage;
+// });
 
 submitButton.addEventListener('click', clickedSubmitBtn);
