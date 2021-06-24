@@ -46,3 +46,6 @@ select[type=dropDown] {
   border-radius: 20px;
   box-sizing: border-box
 }
+.test {
+  color: red;
+}
