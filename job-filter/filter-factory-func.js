@@ -7,6 +7,7 @@ function DisplayJobs() {
         //Storing the parent node in a variable
         let parentDiv = existingDiv.parentNode;
         const enterRegNum = document.createTextNode(item);
+        wrapped.setAttribute('href', 'https://www.ey.com/en_za/careers');
         wrapped.appendChild(enterRegNum);
         newDiv.appendChild(wrapped);
         parentDiv.insertBefore(newDiv, existingDiv);
