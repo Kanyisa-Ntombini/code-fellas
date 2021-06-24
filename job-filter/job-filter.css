@@ -1,0 +1,10 @@
+body {
+    background-color: grey
+  }
+
+.job {
+    border: 0.2rem solid white;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+}
