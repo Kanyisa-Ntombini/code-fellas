@@ -7,7 +7,7 @@ function DisplayJobs() {
         let wrapped4 = document.createElement('div');
         let wrapped5 = document.createElement('div');
         const existingDiv = document.querySelector('.referenceDiv');
-            
+
         //Storing the parent node in a variable
         let parentDiv = existingDiv.parentNode;
         const enterInfo1 = document.createTextNode(jobAvailable[0]);

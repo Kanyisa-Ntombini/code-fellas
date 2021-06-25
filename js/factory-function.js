@@ -11,7 +11,7 @@ function StoreNames(storingFileds = []) {
             EmailAdress: emailAddress,
             PhysicalAddress: physicalAddress,
             PostalAddress: postalAddress,
-            EmployedRadio: employedRadio,
+            EmploymentStatus: employedRadio,
             UnemploymentTime: unemploymentTime
             // CvAttachement: cvUpload
         }
