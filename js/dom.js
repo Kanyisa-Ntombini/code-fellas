@@ -10,6 +10,8 @@ let employedRadio = document.querySelector('.employedRadio');
 let postalAddress = document.querySelector(".postalAddress");
 let unemploymentTime = document.querySelector('.unemploymentTime');
 let cvUpload = document.querySelector('.cvUpload');
+let mytable = document.getElementById('myTable')
+var createTable = document.createElement('table')
 
 //Getting stored registered people
 var storingRegisteredPeople = getRegisteredList();
@@ -29,6 +31,11 @@ function clickedSubmitBtn () {
     storeRegisteredPeople(firstUser.getStoredList());
 
 }
-
+const storedUsers =  firstUser.getStoredList();
+const storedList = storedUsers.filter(function(storage){
+   console.log(storage) 
+    return storage.EmployedRadio =="no" 
+})
+console.log(storedList)
 
 submitButton.addEventListener('click', clickedSubmitBtn);

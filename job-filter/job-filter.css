@@ -12,3 +12,7 @@ body {
 .test {
   color: red;
 }
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
