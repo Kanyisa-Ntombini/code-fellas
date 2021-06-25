@@ -30,14 +30,14 @@ function clickedSubmitBtn () {
     //Storing registered people list
     storeRegisteredPeople(firstUser.getStoredList());
 }
-<<<<<<< HEAD
+
 const storedUsers =  firstUser.getStoredList();
 const storedList = storedUsers.filter(function(storage){
    console.log(storage) 
     return storage.EmployedRadio =="no" 
 })
 console.log(storedList)
-=======
+
 
 // const storeList = firstUser.getStoredList();
 
