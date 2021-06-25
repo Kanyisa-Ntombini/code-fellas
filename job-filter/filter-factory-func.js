@@ -1,9 +1,10 @@
 function DisplayJobs() {
     function createElement(item) {
+
         const newDiv = document.createElement('div');
         let wrapped = document.createElement('a');
         const existingDiv = document.querySelector('.referenceDiv');
-            
+
         //Storing the parent node in a variable
         let parentDiv = existingDiv.parentNode;
         const enterRegNum = document.createTextNode(item);

@@ -29,13 +29,26 @@ function clickedSubmitBtn () {
 
     //Storing registered people list
     storeRegisteredPeople(firstUser.getStoredList());
-
 }
+<<<<<<< HEAD
 const storedUsers =  firstUser.getStoredList();
 const storedList = storedUsers.filter(function(storage){
    console.log(storage) 
     return storage.EmployedRadio =="no" 
 })
 console.log(storedList)
+=======
+
+// const storeList = firstUser.getStoredList();
+
+// storeList.map(function(storage){
+//     storage = firstUser.getStoredList();
+//     console.log(storage);
+//     let storingList = "<tr><td>${storage.firstName}</td><td>${storage.lastName}</td></tr>"
+//     console.log(storingList);
+    
+//     return storage;
+// });
+>>>>>>> af307190a20be2d5f97b93b303e4cb5c05686c2c
 
 submitButton.addEventListener('click', clickedSubmitBtn);
