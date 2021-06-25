@@ -2,13 +2,56 @@ body {
     background-color: grey
   }
 
-.job {
-    border: 0.2rem solid white;
-    background-color: white;
-    margin: 1rem;
-    border-radius: 1rem;
+
+  .center {
+    text-align: center;
+  }
+
+/* Categories */
+
+.categoryJob {
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  margin: 20px;
 }
 
-.test {
-  color: red;
+
+.changeColor {
+  background-color:white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 500px;
+}
+
+.changeColor:hover, .changeColor:focus {
+background-color: #4c7faf;
+border-color: #4c7faf;
+}
+
+.categories-page {
+  text-align: center;
+  margin: 5rem;
+}
+
+.jobTitle {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.descriptions {
+  margin: 10px;
+}
+
+/* Show Button*/
+.showBtn {
+  background-color: #4c7faf;
+  font-size: 20px;
+  border-radius: 10px;
 }

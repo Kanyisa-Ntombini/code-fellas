@@ -11,6 +11,42 @@ body {
   color: white;
 }
 
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.btnAnother {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #4c7faf;
+  padding: 5px;
+  border-radius: 10px;
+  width: 350px
+}
+
+.btn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #4c7faf;
+  padding: 5px;
+  border-radius: 10px;
+  width: 350px
+}
+
 .fields {
   position: absolute;
   top: 50%;
@@ -48,3 +84,4 @@ button[type=button] {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+

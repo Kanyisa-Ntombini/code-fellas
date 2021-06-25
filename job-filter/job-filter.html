@@ -4,28 +4,29 @@
     <link rel="stylesheet" href="job-filter.css">
   </head>
   <body>
-    <!-- DROP DOWN MENU FOR JOB CATEGORIES -->
-    <section class=""> 
-        <label for="" class="categoryJob">Categories:</label>
+    <div class="categories-page">
+      <!-- DROP DOWN MENU FOR JOB CATEGORIES -->
+      <section class=""> 
         <span class="">
-            <select name="categories" id="chooseCategory" class="">
-                <option value="selectjobs">Select Jobs</option>
+            <select name="categories" id="chooseCategory" class="categoryJob">
+                <option value="selectjobs" class="">Please select a job category</option>
                 <option value="info-tech">Information Technology</option>
                 <option value="teaching">Teaching</option>
-                <option value="nursing">Nursing</option>
+                <option value="nursing" class="center">Nursing</option> 
                 <option value="accounting">Accounting</option>
                 <option value="engineering">Engineering</option>
                 <option value="all">Show All</option>
             </select>
         </span>
-    </section>
+      </section>
 
-    <button class="showBtn">Show</button>
+      <button class="showBtn">Show</button>
 
-    <section>
-      <div class="referenceDiv"></div>
-    </section>
-
+      <section class="printing-jobs">
+        <div class="referenceDiv"></div>
+      </section>
+    </div>
+    
     <script src="filter-factory-func.js"></script>
     <script src="dom-filter.js"></script>
   </body>
