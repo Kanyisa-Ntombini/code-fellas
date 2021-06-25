@@ -49,6 +49,6 @@ console.log(storedList)
     
 //     return storage;
 // });
->>>>>>> af307190a20be2d5f97b93b303e4cb5c05686c2c
+// >>>>>>> af307190a20be2d5f97b93b303e4cb5c05686c2c
 
 submitButton.addEventListener('click', clickedSubmitBtn);
